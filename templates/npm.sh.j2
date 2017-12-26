@@ -1,0 +1,3 @@
+export PATH={{ ansible_role_node.npm_config_prefix }}/bin:$PATH
+export NPM_CONFIG_PREFIX={{ ansible_role_node.npm_config_prefix }}
+export NODE_PATH=$NODE_PATH:{{ ansible_role_node.npm_config_prefix }}/lib/node_modules
